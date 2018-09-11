@@ -13,6 +13,10 @@
   <p>
     If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
   </p>
+  <div id="map_canvas">
+    <button ion-button (click)="addMarker($event)">Start demo</button>
+    <button ion-button (click)="startNavigation($event)">Start demo</button>
+  </div>
 
   <button ion-button secondary menuToggle>Toggle Menu</button>
 </ion-content>
